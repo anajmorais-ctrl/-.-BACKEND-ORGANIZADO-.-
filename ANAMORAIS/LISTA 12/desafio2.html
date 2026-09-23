@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Estacionamento</title>
+<body>
+
+<div class="box">
+    <h2> Estacionamento</h2>
+
+    <form method="POST" action="">
+        <label>Nome do motorista:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label>Tipo de veículo:</label><br>
+        <select name="veiculo" required>
+            <option value="">Selecione...</option>
+            <option value="moto">Moto (R$ 5,00/h)</option>
+            <option value="carro">Carro (R$ 8,00/h)</option>
+            <option value="caminhonete">Caminhonete (R$ 12,00/h)</option>
+        </select><br><br>
+
+        <label>Quantidade de horas:</label><br>
+        <input type="number" name="horas" required><br><br>
+
+        <input type="submit" name="calcular" value="Calcular Total">
+    </form>
