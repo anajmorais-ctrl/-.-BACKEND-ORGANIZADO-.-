@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitinhas Sobra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="receitinhassobras.jpg" width="180" alt="Receitinhas Sobra">
+
+        <h2>𐂐◯𓇋RECEITINHAS SOBRA𐂐◯𓇋</h2>
+
+        <p>Escolha o que você tem em casa e descubra uma receita!😋🍽️</p>
+
+        <form action="processa.php" method="POST">
+
+            <div class="form-group">
+
+                <label for="proteina">O que você tem de proteína?💪🥚🥩</label>
+
+                <select name="proteina" id="proteina" required>
+
+                    <option value="">Selecione...</option>
+
+                    <option value="frango">Frango</option>
+                    <option value="carne">Carne</option>
+                    <option value="porco">Porco</option>
+                    <option value="peixe">Peixe</option>
+                    <option value="ovos">Ovos</option>
+                    <option value="vegetal">Vegetal</option>
+                    <option value="nenhuma">Nenhuma</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="vegetal">Você tem algum vegetal?🥦🥬🥕</label>
+
+                <select name="vegetal" id="vegetal" required>
+
+                    <option value="">Selecione...</option>
+
+                    <option value="cebola">Cebola ou alho</option>
+                    <option value="tomate">Tomate</option>
+                    <option value="cenoura">Cenoura</option>
+                    <option value="brocolis">Brócolis ou couve-flor</option>
+                    <option value="pimentao">Pimentão</option>
+                    <option value="folhas">Folhas</option>
+                    <option value="abobrinha">Abobrinha ou chuchu</option>
+                    <option value="milho">Milho ou ervilha</option>
+                    <option value="nenhum">Nenhum</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="carbo">Qual carboidrato você tem?🍞🥖🍝</label>
+
+                <select name="carbo" id="carbo" required>
+
+                    <option value="">Selecione...</option>
+
+                    <option value="arroz">Arroz</option>
+                    <option value="macarrao">Macarrão</option>
+                    <option value="batata">Batata, mandioca ou mandioquinha</option>
+                    <option value="pao">Pão</option>
+                    <option value="farinha">Farinha</option>
+                    <option value="nenhum">Nenhum</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="cremosidade">O que você tem para dar cremosidade?🧀🧈🥛</label>
+
+                <select name="cremosidade" id="cremosidade" required>
+
+                    <option value="">Selecione...</option>
+
+                    <option value="queijo">Queijo</option>
+                    <option value="creme">Creme de leite ou requeijão</option>
+                    <option value="manteiga">Manteiga ou margarina</option>
+                    <option value="molho">Molho</option>
+                    <option value="limao">Limão ou vinagre</option>
+                    <option value="nenhum">Nenhum</option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="tempo">Quanto tempo você tem?⏰</label>
+
+                <select name="tempo" id="tempo" required>
+
+                    <option value="">Selecione...</option>
+
+                    <option value="preguica">Estou com preguiça</option>
+                    <option value="meiahora">Tenho meia hora</option>
+                    <option value="inspirado">Estou inspirado</option>
+
+                </select>
+
+            </div>
+
+
+            <button type="submit">CRIAR MINHA RECEITA</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
